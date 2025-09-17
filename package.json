@@ -1,19 +1,23 @@
 {
   "name": "notification-server",
   "version": "1.0.0",
-  "description": "This is an notifcation sender server for firebase on Vercel.",
-  "main": "api/send-message.js",
- "scripts": {
-  "start": "node server.js"
-},
+  "description": "This is a notification sender server for Firebase on Vercel.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vercel dev"
+  },
   "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
     "firebase-admin": "^13.5.0"
   },
   "keywords": [
     "firebase",
     "notification",
     "server",
-    "vercel"
+    "vercel",
+    "express"
   ],
   "author": "Swapnil",
   "license": "ISC"
