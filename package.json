@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "This is an notifcation sender server for firebase on Vercel.",
   "main": "api/send-message.js",
-  "scripts": {
-    "dev": "vercel dev",
-    "start": "vercel start"
-  },
+ "scripts": {
+  "start": "node server.js"
+},
   "dependencies": {
     "firebase-admin": "^13.5.0"
   },
