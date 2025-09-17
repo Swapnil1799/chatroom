@@ -2,7 +2,7 @@
   "name": "notification-server",
   "version": "1.0.0",
   "description": "This is an notifcation sender server for firebase on Vercel.",
-  "main": "send-message.js",
+  "main": "api/send-message.js",
   "scripts": {
     "dev": "vercel dev",
     "start": "vercel start"
